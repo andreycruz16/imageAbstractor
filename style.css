@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+Global
+--------------------------------------------------------------*/
+body {
+	margin: 1em;
+	color: black;
+	font-family: "Fira Code", monospace;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.masthead {
+	text-align: center;
+}
+
+.the-grid {
+    margin: 2em;
+    padding: .5em;
+	border: 5px solid #41444B;
+	border-radius: 15px;
+}
+
+/*--------------------------------------------------------------
+Box styles
+--------------------------------------------------------------*/
+.colors {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(32, 1fr);
+	grid-template-rows: repeat(32, 1fr);
+	list-style-type: none;
+}
+
+.colors li {
+	padding: 1em;
+	font-size: 6px;
+}
+
+

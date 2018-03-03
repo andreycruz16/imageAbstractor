@@ -1,0 +1,16 @@
+{
+    "name": "lil/imageabstractor",
+    "description": "Simple example pulling colours out of an image",
+    "type": "project",
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Mark Andrey",
+            "email": "markandreydelacruz@ymail.com" 
+        }
+    ],
+    "require": {
+        "league/color-extractor": "0.3.*",
+        "monolog/monolog": "^1.17.0"
+    }
+}
